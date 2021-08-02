@@ -36,7 +36,8 @@ using binary installers (windows) or using a package manager (`apt-get`,
 `homebrew`), etc.
 
 ### Installing straight from `PyPI`:
-Run `pip install stl_tools`.
+<!--Run `pip install stl_tools`.-->
+Run `pip install git+https://github.com/haykh/stl_tools.git@master`.
 
 ### Installing from Source:
 Run `python setup.py build install` to install.
